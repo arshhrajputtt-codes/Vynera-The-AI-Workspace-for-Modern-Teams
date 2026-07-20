@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .glass {
+    background: theme('colors.glass');
+    border: 1px solid theme('colors.border');
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
